@@ -311,7 +311,6 @@ body {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: left;
   padding: 4rem 2rem;
@@ -339,8 +338,14 @@ body {
   color: #333;
 }
 
-#service .box-container .box:nth-child(2n) {
+#service .box-container .box:nth-child(2) {
   float: right;
+  margin-bottom: 4rem;
+}
+
+#service .box-container .box:nth-child(4) {
+  float: right;
+  margin-bottom: 4rem;
 }
 
 #testimonial {
@@ -440,7 +445,19 @@ body {
   color: #0469c4;
 }
 
-#testimonial .box-container .box:nth-child(even) {
+#testimonial .box-container .box:nth-child(2) {
+  float: right;
+}
+
+#testimonial .box-container .box:nth-child(4) {
+  float: right;
+}
+
+#testimonial .box-container .box:nth-child(6) {
+  float: right;
+}
+
+#testimonial .box-container .box:nth-child(8) {
   float: right;
 }
 
@@ -484,7 +501,6 @@ body {
 }
 
 #contact form {
-  margin-right: 20px;
   background: #fff;
   padding-top: 2rem;
   margin-top: 2rem;
@@ -707,14 +723,27 @@ body {
     padding-left: 0;
     padding-top: 3rem;
     border: none;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
   }
   #service .box-container .box .info p {
-    padding: 1rem;
+    padding: 0rem;
   }
+
+  #service .box-container .box:nth-child(2) {
+
+    float: left;
+    margin-bottom: 4rem;
+  }
+  
+  #service .box-container .box:nth-child(4) {
+    float: left;
+    margin-bottom: 4rem;
+  }
+
   #testimonial .box-container .box {
     padding: .5rem;
-    margin-top: 13rem;
+    padding-top: 17rem;
     margin-left: 0;
     margin-right: 0;
   }
@@ -722,12 +751,13 @@ body {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    top: -30%;
+    top: 3%;
     height: 15rem;
     width: 15rem;
   }
   #testimonial .box-container .box .info {
-    text-align: center;
+    text-align: left;
+    padding: 10px;
   }
   #testimonial .box-container .box .info p {
     padding-top: 9rem;
@@ -736,8 +766,10 @@ body {
     text-align: center;
     margin: 1.5rem;
   }
-  #testimonial .box-container .box:nth-child(even) {
-    float: none;
+  #testimonial .box-container .box:nth-child(2n) {
+    float: left;
+    margin-bottom: 4rem;
   }
+
 }
 /*# sourceMappingURL=style.css.map */
