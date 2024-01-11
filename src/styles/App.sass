@@ -1,0 +1,41 @@
+$color-text: #e8ecf5
+$color-background: #06080e
+
+$color-primary: #9aa4d2
+$color-secundary: #412f6a
+$color-accent: #8a60b8
+$color-content: #242735
+  
+body
+  background-color: $color-background !important
+  
+h1,h2,h3,p
+  color: $color-text !important
+  font-size: 19px
+
+ul
+  li
+    color: $color-text !important
+    font-size: 19px
+
+.bg
+  &-c1
+    background-color: $color-content !important
+    height: 100% !important
+  &-c2
+    color: $color-text
+    transition: all 0.5s ease-out
+  &-c2:hover
+    color: $color-accent
+  &-c3
+    color: $color-accent
+  &-c4
+    color: #68b352
+
+.txt
+  &-c1
+    background: linear-gradient(120deg,$color-primary,$color-accent)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  &-c2
+    color: $color-primary !important
