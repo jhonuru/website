@@ -30,7 +30,7 @@ function App() {
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route index element={<Home />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/website" element={<Home />} />
       </Routes>
     </BrowserRouter>
   )

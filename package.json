@@ -1,11 +1,9 @@
 {
   "name": "website-react",
-  "private": false,
-  "homepage": "https://jhonuru.github.io/website/",
+  "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
