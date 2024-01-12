@@ -1,5 +1,7 @@
 import { useEffect } from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './styles/App.sass'
+//bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 //Fontawesome
@@ -21,14 +23,16 @@ function App() {
   }, [])
 
   return (
-    <>
-      <Navbar/>
+    <BrowserRouter>
+      <Navbar />
       <br />
       <br />
       <br />
       <br />
-      <Home/>
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
