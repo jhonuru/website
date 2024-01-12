@@ -5,7 +5,7 @@ import img1 from '../assets/img2.jpg'
 
 export function Home() {
   return (
-    <div className="container mb-5">
+    <div className="container mb-5" id='perfil'>
       <div className="row align-items-center mb-5">
         <div className="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
           <img src={img1} alt="Foto perfil" className='d-flex m-auto mb-4 shadow' style={{ borderRadius: '60%', width: '270px' }} />
@@ -31,8 +31,8 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row mb-5">
-        <div className="col-12" id='formacion' data-aos="flip-up">
+      <div className="row mb-5" id='formacion'>
+        <div className="col-12" data-aos="flip-up">
           <h1>Formación Academica</h1>
           <hr />
         </div>
@@ -88,8 +88,8 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row mb-5">
-        <div className="col-12" id='cursos' data-aos="flip-up">
+      <div className="row mb-5" id='cursos'>
+        <div className="col-12" data-aos="flip-up">
           <h1>Cursos</h1>
           <hr />
         </div>
@@ -162,8 +162,8 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row mb-5">
-        <div className="col-12" id='experiencia' data-aos="flip-up">
+      <div className="row mb-5" id='experiencia'>
+        <div className="col-12" data-aos="flip-up">
           <h1>Experiencia laboral</h1>
           <hr />
         </div>
@@ -401,8 +401,8 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center mb-5">
-        <div className="col-12" id='contacto' data-aos="flip-up">
+      <div className="row justify-content-center" id='contacto'>
+        <div className="col-12" data-aos="flip-up">
           <h1>Contacto</h1>
           <hr/>
         </div>
@@ -422,7 +422,7 @@ export function Home() {
             </div>
             <div className="inputBox mt-4">
               <p className='mb-0'>Mensage</p>
-              <textarea type="inputBox" className='form-control mb-2' name='Mensage' cols={30} rows={10} autoComplete='off' minLength={6} maxLength={200} required />
+              <textarea type="inputBox" className='form-control mb-2' name='Mensage' cols={30} rows={6} autoComplete='off' minLength={6} maxLength={200} required />
             </div>
             <div>
               <button type='submit' className='btn btn-primary'>Enviar</button>

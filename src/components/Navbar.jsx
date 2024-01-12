@@ -1,21 +1,22 @@
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 
 export function Navbar() {
   return(
     <>
-      <nav className="navbar bg-dark navbar-expand-md bg-body-tertiary fixed-top" data-bs-theme="dark" data-aos="fade-down">
+      <nav className="navbar bg-dark navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to={"/"}>
             <FontAwesomeIcon icon={faReact} size='2x' style={{ color:'#00D1F7'}} />
-          </a>
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto my-0 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Perfil</a>
+                <a className="nav-link active" aria-current="page" href="#perfil">Perfil</a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

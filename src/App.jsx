@@ -12,6 +12,7 @@ library.add(fas, faFontAwesome)
 //Componentes
 import { Navbar } from './components/Navbar'
 import { Home } from './pages/Home'
+import { NotFound } from "./pages/NotFound"
 //AOS
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -26,11 +27,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <br />
-      <br />
-      <br />
-      <br />
       <Routes>
-        <Route path="*" element={<h1>Not Found 404</h1>} />
+        <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
