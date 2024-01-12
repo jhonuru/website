@@ -5,13 +5,13 @@ import img1 from '../assets/img2.jpg'
 
 export function Home() {
   return (
-    <div className="container mb-5" id='perfil'>
+    <div className="container mb-5">
       <div className="row align-items-center mb-5">
         <div className="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
           <img src={img1} alt="Foto perfil" className='d-flex m-auto mb-4 shadow' style={{ borderRadius: '60%', width: '270px' }} />
           <p className='text-center fs-3 txt-c1'><b>Jhon Jairo Urueta Alvarez</b></p>
         </div>
-        <div className="col-lg-8" data-aos="fade-left">
+        <div className="col-lg-8" data-aos="fade-left" id='perfil'>
           <h1>Perfil profesional</h1>
           <hr />
           <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en el diseño profesional de páginas web, basadas en HTML5, CSS3, JavaScript, SASS, React.js, cumplimiento de objetivos y solución de problemas, atención al cliente; Con habilidades para planear, coordinar y administrar las operaciones del sitio web, alta capacidad de liderazgo, sólida formación humanística, espíritu creativo y capacidad innovadora.</p>

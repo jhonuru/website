@@ -24,11 +24,12 @@ function App() {
   }, [])
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter>
       <Navbar />
       <br />
       <Routes>
         <Route path="*" element={<NotFound />} />
+        <Route index element={<Home />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
