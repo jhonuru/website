@@ -1,7 +1,7 @@
 {
   "name": "website-react",
-  "private": true,
-  "homepage": "http://jhonuru.github.io/website/",
+  "private": false,
+  "homepage": "https://jhonuru.github.io/website/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
