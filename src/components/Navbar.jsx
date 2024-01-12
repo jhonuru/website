@@ -7,7 +7,7 @@ export function Navbar() {
     <>
       <nav className="navbar bg-dark navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to={"/"}>
+          <Link className="navbar-brand" to={"/website"}>
             <FontAwesomeIcon icon={faReact} size='2x' style={{ color:'#00D1F7'}} />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

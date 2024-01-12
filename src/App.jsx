@@ -1,6 +1,7 @@
 import { useEffect } from "react"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './styles/App.sass'
+//Rutas
+import MyRoutes from "./routes/Routes"
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
@@ -9,10 +10,6 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 library.add(fas, faFontAwesome)
-//Componentes
-import { Navbar } from './components/Navbar'
-import { Home } from './pages/Home'
-import { NotFound } from "./pages/NotFound"
 //AOS
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -24,15 +21,7 @@ function App() {
   }, [])
 
   return (
-    <BrowserRouter>
-      <Navbar />
-      <br />
-      <Routes>
-        <Route path="*" element={<NotFound />} />
-        <Route index element={<Home />} />
-        <Route path="/website" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <MyRoutes />
   )
 }
 

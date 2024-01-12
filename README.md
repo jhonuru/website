@@ -57,3 +57,13 @@ useEffect(() => {
     Aos.init();
   }, [])
 ```
+
+## GITHUB PAGES
+
+```bash
+npm i gh-pages -D
+
+#vite.config.js
+base: "/el-nombre-de-tu-repositorio/",
+
+```
