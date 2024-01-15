@@ -58,7 +58,7 @@ useEffect(() => {
   }, [])
 ```
 
-## GITHUB PAGES
+## Github pages
 
 ```bash
 npm i gh-pages -D
