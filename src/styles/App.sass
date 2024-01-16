@@ -1,44 +1,31 @@
-$color-text: #e8ecf5
-$color-background: #06080e
-
-$color-primary: #9aa4d2
-$color-secundary: #412f6a
-$color-accent: #8a60b8
-$color-content: #242735
-  
-body
-  background-color: $color-background !important
-  
 h1,h2,h3,p
-  color: $color-text !important
   font-size: 19px
 
 ul
   li
-    color: $color-text !important
     font-size: 19px
 
 .bg
   &-c1
-    background-color: $color-content !important
+    background-color: #242735
     height: 100% !important
   &-c2
-    color: $color-text
+    color: #698de0
     transition: all 0.5s ease-out
   &-c2:hover
-    color: $color-accent
+    color: #8a60b8
   &-c3
-    color: $color-accent
+    color: #8a60b8
   &-c4
     color: #68b352
 
 .txt
   &-c1
-    background: linear-gradient(120deg,$color-primary,$color-accent)
+    background: linear-gradient(120deg,#9aa4d2,#8a60b8)
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
   &-c2
-    color: $color-primary !important
+    color: #9aa4d2 !important
 
 .btnTop1
   z-index: 2
@@ -50,9 +37,9 @@ ul
   transition: all 0.5s ease-out
   transform: scale(1.5)
   animation: pulse 2s infinite
-  color: $color-text !important
+  color: #698de0 important
 .btnTop1:hover
-  color: $color-accent !important
+  color: #8a60b8 !important
 
 .btnTop2
   z-index: 2
@@ -64,7 +51,7 @@ ul
   transition: all 0.5s ease-out
   transform: scale(1.5)
   animation: pulse 2s infinite
-  color: $color-text !important
+  color: #698de0 !important
 .btnTop2:hover
   color: #73e43f !important
 
