@@ -41,12 +41,12 @@ export function Navbar() {
                 <a className="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
-          </div>
-          <div className="row">
-            <div className="col-auto d-flex align-items-center">
-              <FontAwesomeIcon icon="fa-solid fa-sun" />
-              <div className="form-check form-switch mx-2 d-flex justify-content-center"><input className="form-check-input p-2" type="checkbox" role="switch" id="flexSwitchCheckCheked" onClick={modeDark} /></div>
-              <FontAwesomeIcon icon="fa-solid fa-moon" />
+            <div className="row">
+              <div className="col-auto d-flex align-items-center">
+                <FontAwesomeIcon icon="fa-solid fa-sun" />
+                <div className="form-check form-switch mx-2 d-flex justify-content-center"><input className="form-check-input p-2" type="checkbox" role="switch" id="flexSwitchCheckCheked" onClick={modeDark} /></div>
+                <FontAwesomeIcon icon="fa-solid fa-moon" />
+              </div>
             </div>
           </div>
         </div>
