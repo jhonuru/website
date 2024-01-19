@@ -12,7 +12,7 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="navbar bg-dark navbar-expand-md bg-body-tertiary">
+      <nav className="navbar bg-dark navbar-expand-md bg-body-tertiary fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to={"/website"}>
             <FontAwesomeIcon icon={faReact} size='2x' style={{ color: '#00D1F7' }} className="ani1" />

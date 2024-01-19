@@ -12,7 +12,6 @@ export default function MyRoutes() {
       <Navbar />
       <ButtonWhatsapp />
       <ButtonTop />
-      <br />
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route index element={<Home />} />

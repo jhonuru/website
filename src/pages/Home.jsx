@@ -5,16 +5,17 @@ import img1 from '../assets/img2.jpg'
 
 export function Home() {
   return (
-    <div className="container mb-5">
-      <div className="row align-items-center mb-5">
+    <div className="container mb-5" id='perfil'>
+      <div className="row align-items-center mb-5 mt-0 mt-lg-5 ">
         <div className="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
           <img src={img1} alt="Foto perfil" className='d-flex m-auto mb-4 shadow' style={{ borderRadius: '60%', width: '270px' }} />
           <p className='text-center fs-3 txt-c1'><b>Jhon Jairo Urueta Alvarez</b></p>
         </div>
-        <div className="col-lg-8" data-aos="fade-left" id='perfil'>
+        <div className="col-lg-8" data-aos="fade-left" >
           <h1>Perfil profesional</h1>
           <hr />
-          <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en el diseño profesional de páginas web, basadas en HTML5, CSS3, JavaScript, SASS, React.js, cumplimiento de objetivos y solución de problemas, atención al cliente; Con habilidades para planear, coordinar y administrar las operaciones del sitio web, alta capacidad de liderazgo, sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
+          <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en el diseño profesional de páginas web, basadas en HTML5, CSS3, JavaScript, SASS, React.js, cumplimiento de objetivos y solución de problemas; Con habilidades para planear, coordinar y administrar las operaciones del sitio web, alta capacidad de liderazgo, sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
+          <br />
           <div className="row align-items-center">
             <div className="col-auto">
               <a href="https://www.facebook.com/jhonuru/" target='_blank' rel='noreferrer' className='bg-c2' ><FontAwesomeIcon icon={faFacebook} size='2x' /></a>
@@ -31,7 +32,10 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row mb-5" id='formacion'>
+      <br id='formacion' />
+      <br />
+      <br />
+      <div className="row mb-5" >
         <div className="col-12" data-aos="flip-up">
           <h1>Formación Academica</h1>
           <hr />
@@ -88,7 +92,10 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row mb-5" id='cursos'>
+      <br id='cursos'/>
+      <br />
+      <br />
+      <div className="row mb-5">
         <div className="col-12" data-aos="flip-up">
           <h1>Cursos</h1>
           <hr />
@@ -162,7 +169,10 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row mb-5" id='experiencia'>
+      <br id='experiencia' />
+      <br />
+      <br />
+      <div className="row mb-5">
         <div className="col-12" data-aos="flip-up">
           <h1>Experiencia laboral</h1>
           <hr />
@@ -401,7 +411,10 @@ export function Home() {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center" id='contacto'>
+      <br id='contacto' />
+      <br />
+      <br />
+      <div className="row justify-content-center">
         <div className="col-12" data-aos="flip-up">
           <h1>Contacto</h1>
           <hr/>
