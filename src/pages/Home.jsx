@@ -424,7 +424,7 @@ export function Home() {
               </div>
               <div className="col-lg-6">
                 <div className="inputBox mt-2 mt-lg-4">
-                  <p className='mb-0'>Mensage</p>
+                  <p className='mb-0'>Mensaje</p>
                   <textarea type="inputBox" className='form-control mb-2' name='Mensage' cols={30} rows={6} autoComplete='off' minLength={6} maxLength={200} required />
                 </div>
                 <div>
