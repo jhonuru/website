@@ -6,14 +6,13 @@ import img1 from '../assets/img2.jpg'
 export function Home() {
   return (
     <div className="container mb-5" id='perfil'>
-      <div className="row align-items-center mb-5 mt-0 mt-lg-5 ">
+      <section className='row align-items-center mb-4 mt-0 mt-lg-5'>
         <div className="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
           <img src={img1} alt="Foto perfil" className='d-flex m-auto mb-4 shadow' style={{ borderRadius: '60%', width: '270px' }} />
           <p className='text-center fs-3 txt-c1'><b>Jhon Jairo Urueta Alvarez</b></p>
         </div>
         <div className="col-lg-8" data-aos="fade-left" >
-          <h1>Perfil profesional</h1>
-          <hr />
+          <h1 className='mb-4'>Perfil profesional</h1>
           <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en el diseño profesional de páginas web, basadas en HTML5, CSS3, JavaScript, SASS, React.js, cumplimiento de objetivos y solución de problemas; Con habilidades para planear, coordinar y administrar las operaciones del sitio web, alta capacidad de liderazgo, sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
           <br />
           <div className="row align-items-center">
@@ -31,14 +30,11 @@ export function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <br id='formacion' />
-      <br />
-      <br />
-      <div className="row mb-5" >
-        <div className="col-12" data-aos="flip-up">
+      </section>
+      <hr className='hr' id='formacion' />
+      <section className='row mb-4'>
+        <div className="col-12 mb-4 pt-5" data-aos="flip-up">
           <h1>Formación Academica</h1>
-          <hr />
         </div>
         <div className="col-lg-6 mb-4" data-aos="fade-right">
           <div className="card bg-c1 shadow">
@@ -91,14 +87,11 @@ export function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <br id='cursos'/>
-      <br />
-      <br />
-      <div className="row mb-5">
-        <div className="col-12" data-aos="flip-up">
-          <h1>Cursos</h1>
-          <hr />
+      </section>
+      <hr className='hr' id='cursos'/>
+      <section className='row mb-4'>
+        <div className="col-12 pt-5" data-aos="flip-up">
+          <h1 className='mb-4'>Cursos</h1>
         </div>
         <div className="col-lg-6 mb-4" data-aos="fade-right">
           <div className="card bg-c1 shadow">
@@ -168,14 +161,11 @@ export function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <br id='experiencia' />
-      <br />
-      <br />
-      <div className="row mb-5">
-        <div className="col-12" data-aos="flip-up">
-          <h1>Experiencia laboral</h1>
-          <hr />
+      </section>
+      <hr className='hr' id='experiencia'/>
+      <section className='row mb-4'>
+        <div className="col-12 pt-5" data-aos="flip-up">
+          <h1 className='mb-4'>Experiencia laboral</h1>
         </div>
         <div className="col-lg-6 mb-4" data-aos="fade-right">
           <div className="card bg-c1 shadow">
@@ -410,39 +400,40 @@ export function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <br id='contacto' />
-      <br />
-      <br />
-      <div className="row justify-content-center">
-        <div className="col-12" data-aos="flip-up">
+      </section>
+      <hr className='hr' id='contacto'/>
+      <section className='row justify-content-center'>
+        <div className="col-12 pt-5" data-aos="flip-up">
           <h1>Contacto</h1>
-          <hr/>
         </div>
-        <div className="col-lg-5" data-aos="fade-right">
-          <form action="https://formspree.io/f/xwkavpyr" method='post'>
-            <div className="inputBox mt-4">
-              <p className='mb-0'>Nombre completo</p>
-              <input type="text" className='form-control mb-2' name='Nombre completo' placeholder='Ingrese su nombre completo' minLength={6} maxLength={30} autoComplete='off' required />
-            </div>
-            <div className="inputBox mt-4">
-              <p className='mb-0'>Correo electronico</p>
-              <input type="email" className='form-control mb-2' name='Correo electronico' placeholder='name@example.com' autoComplete='off' required />
-            </div>
-            <div className="inputBox mt-4">
-              <p className='mb-0'>Número de contacto</p>
-              <input type="number" className='form-control mb-2' name='Número de contacto' placeholder='Ingrese su número de contacto' minLength={6} maxLength={10} autoComplete='off' required />
-            </div>
-            <div className="inputBox mt-4">
-              <p className='mb-0'>Mensage</p>
-              <textarea type="inputBox" className='form-control mb-2' name='Mensage' cols={30} rows={6} autoComplete='off' minLength={6} maxLength={200} required />
-            </div>
-            <div>
-              <button type='submit' className='btn btn-primary'>Enviar</button>
+          <form action="https://formspree.io/f/xwkavpyr" method='post' data-aos="fade-right">
+            <div className="row justify-content-center">
+              <div className="col-lg-4">
+                <div className="inputBox mt-4">
+                  <p className='mb-0'>Nombre completo</p>
+                  <input type="text" className='form-control mb-2' name='Nombre completo' placeholder='Ingrese su nombre completo' minLength={6} maxLength={30} autoComplete='off' required />
+                </div>
+                <div className="inputBox mt-4">
+                  <p className='mb-0'>Correo electronico</p>
+                  <input type="email" className='form-control mb-2' name='Correo electronico' placeholder='name@example.com' autoComplete='off' required />
+                </div>
+                <div className="inputBox mt-4">
+                  <p className='mb-0'>Número de contacto</p>
+                  <input type="number" className='form-control mb-2' name='Número de contacto' placeholder='Ingrese su número de contacto' minLength={6} maxLength={10} autoComplete='off' required />
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="inputBox mt-2 mt-lg-4">
+                  <p className='mb-0'>Mensage</p>
+                  <textarea type="inputBox" className='form-control mb-2' name='Mensage' cols={30} rows={6} autoComplete='off' minLength={6} maxLength={200} required />
+                </div>
+                <div>
+                  <button type='submit' className='btn btn-primary'>Enviar</button>
+                </div>
+              </div>
             </div>
           </form>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }
