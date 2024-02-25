@@ -14,7 +14,7 @@ export function Navbar() {
     <>
       <nav className="navbar bg-dark navbar-expand-md bg-body-tertiary fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand" to={"/website"}>
+          <Link className="navbar-brand" to={"/website/"} >
             <FontAwesomeIcon icon={faReact} size='2x' style={{ color: '#00D1F7' }} className="ani1" />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@ export function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto my-0 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#perfil">Perfil</a>
+                <a className="nav-link" aria-current="page" href="#perfil">Perfil</a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,11 +41,12 @@ export function Navbar() {
                 <a className="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
-            <div className="row">
+            <hr />
+            <div className="row justify-content-center my-2">
               <div className="col-auto d-flex align-items-center">
-                <FontAwesomeIcon icon="fa-solid fa-sun" />
-                <div className="form-check form-switch mx-2 d-flex justify-content-center"><input className="form-check-input p-2" type="checkbox" role="switch" id="flexSwitchCheckCheked" onClick={modeDark} /></div>
                 <FontAwesomeIcon icon="fa-solid fa-moon" />
+                <div className="form-check form-switch mx-2 d-flex justify-content-center"><input className="form-check-input p-2" type="checkbox" role="switch" id="flexSwitchCheckCheked" onClick={modeDark} /></div>
+                <FontAwesomeIcon icon="fa-solid fa-sun" />
               </div>
             </div>
           </div>
