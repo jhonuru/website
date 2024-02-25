@@ -21,9 +21,9 @@ export function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto my-0 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#perfil">Perfil</a>
+                <a className="nav-link" href="#perfil">Perfil</a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
