@@ -90,7 +90,7 @@ export function Home() {
               </div>
               <div className="col-md">
                 <div className="card-body">
-                  <h3 className="card-title mb-0 txt-c2">Ingeniería de sistemas</h3>
+                  <h3 className="card-title mb-0 txt-c2">Ingeniero de sistemas</h3>
                   <p className="card-text mb-0"><b>Universitaria de investigación y desarrollo (UDI)</b></p>
                   <p className="card-text mb-0">Bucaramanga - Santander</p>
                   <p className="card-text">2013</p>
