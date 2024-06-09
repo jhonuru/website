@@ -35,7 +35,7 @@ export function Navbar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#experiencia">Experiencia</a>
+                <a className="nav-link" href="#experiencia">Experiencia laboral</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contacto">Contacto</a>

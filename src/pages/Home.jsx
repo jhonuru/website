@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faLinkedin, faXTwitter, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faFontAwesome, faFigma, faWindows, faApple, faVuejs } from '@fortawesome/free-brands-svg-icons'
 import img1 from '../assets/img2.jpg'
 
 export function Home() {
@@ -13,9 +13,44 @@ export function Home() {
         </div>
         <div className="col-lg-8" data-aos="fade-left" >
           <h1 className='mb-4'>Perfil profesional</h1>
-          <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en el diseño profesional de páginas web, basadas en HTML5, CSS3, JavaScript, SASS, React.js, cumplimiento de objetivos y solución de problemas; Con habilidades para planear, coordinar y administrar las operaciones del sitio web, alta capacidad de liderazgo, sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
+          <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en la maquetación de páginas web, a partir de diseños elaborados en Adobe XD y Figma. Utilizando lenguajes como HTML5, CSS, SASS, JavaScript y las librerías React.js, PUG, Bootstrap, AOS y FontAwesome. Manejo de control de versiones mediante Github. Cumplimiento de objetivos y solución de problemas. Sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
+          <div className='row align-items-center'>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faHtml5} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faCss3Alt} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faJs} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faReact} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faVuejs} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faBootstrap} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faFontAwesome} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faFigma} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faWindows} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faApple} size='2x' />
+            </div>
+          </div>
           <br />
           <div className="row align-items-center">
+            <div className="col-12">
+              <p><b className='txt-c2'>Redes sociales</b></p>
+            </div>
             <div className="col-auto">
               <a href="https://www.facebook.com/jhonuru/" target='_blank' rel='noreferrer' className='bg-c2' ><FontAwesomeIcon icon={faFacebook} size='2x' /></a>
             </div>
