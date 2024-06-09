@@ -1,20 +1,20 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faLinkedin, faXTwitter, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faFontAwesome, faFigma, faWindows, faApple, faVuejs } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faLinkedin, faXTwitter, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faFontAwesome, faFigma, faWindows, faApple, faVuejs, faGithub, faNode, faNpm } from '@fortawesome/free-brands-svg-icons'
 import img1 from '../assets/img2.jpg'
 
 export function Home() {
   return (
     <div className="container mb-5" id='perfil'>
       <section className='row align-items-center mb-4 mt-0 mt-lg-5'>
-        <div className="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
+        <div className="col-lg-4 mb-4 mb-lg-0" data-aos="fade-right">
           <img src={img1} alt="Foto perfil" className='d-flex m-auto mb-4 shadow' style={{ borderRadius: '60%', width: '270px' }} />
           <p className='text-center fs-3 txt-c1'><b>Jhon Jairo Urueta Alvarez</b></p>
         </div>
         <div className="col-lg-8" data-aos="fade-left" >
           <h1 className='mb-4'>Perfil profesional</h1>
-          <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en la maquetación de páginas web, a partir de diseños elaborados en Adobe XD y Figma. Utilizando lenguajes como HTML5, CSS, SASS, JavaScript y las librerías React.js, PUG, Bootstrap, AOS y FontAwesome. Manejo de control de versiones mediante Github. Cumplimiento de objetivos y solución de problemas. Sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
-          <div className='row align-items-center mb-2'>
+          <p className='mb-4'><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en la maquetación de páginas web, a partir de diseños elaborados en Adobe XD y Figma. Utilizando lenguajes como HTML5, CSS, SASS, JavaScript y las librerías React.js, PUG, Bootstrap, AOS y FontAwesome. Manejo de control de versiones mediante Github. Cumplimiento de objetivos y solución de problemas. Sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
+          <div className='row justify-content-center align-items-center mb-2'>
             <div className="col-auto">
               <FontAwesomeIcon icon={faHtml5} size='2x' />
             </div>
@@ -37,7 +37,16 @@ export function Home() {
               <FontAwesomeIcon icon={faFontAwesome} size='2x' />
             </div>
           </div>
-          <div className='row align-items-center'>
+          <div className='row justify-content-center align-items-center mb-4'>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faGithub} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faNode} size='2x' />
+            </div>
+            <div className="col-auto">
+              <FontAwesomeIcon icon={faNpm} size='2x' />
+            </div>
             <div className="col-auto">
               <FontAwesomeIcon icon={faFigma} size='2x' />
             </div>
@@ -49,9 +58,9 @@ export function Home() {
             </div>
           </div>
           <br />
-          <div className="row align-items-center">
+          <div className="row justify-content-center align-items-center">
             <div className="col-12">
-              <p><b className='txt-c2'>Redes sociales</b></p>
+              <h2 className='text-center'>Redes sociales</h2>
             </div>
             <div className="col-auto">
               <a href="https://www.facebook.com/jhonuru/" target='_blank' rel='noreferrer' className='bg-c2' ><FontAwesomeIcon icon={faFacebook} size='2x' /></a>
