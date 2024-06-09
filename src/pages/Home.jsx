@@ -14,7 +14,7 @@ export function Home() {
         <div className="col-lg-8" data-aos="fade-left" >
           <h1 className='mb-4'>Perfil profesional</h1>
           <p><b className='txt-c2'>Ingeniero de sistemas</b>, con amplia experiencia en la maquetación de páginas web, a partir de diseños elaborados en Adobe XD y Figma. Utilizando lenguajes como HTML5, CSS, SASS, JavaScript y las librerías React.js, PUG, Bootstrap, AOS y FontAwesome. Manejo de control de versiones mediante Github. Cumplimiento de objetivos y solución de problemas. Sólida formación humanística, espíritu creativo y capacidad innovadora.</p>
-          <div className='row align-items-center'>
+          <div className='row align-items-center mb-2'>
             <div className="col-auto">
               <FontAwesomeIcon icon={faHtml5} size='2x' />
             </div>
@@ -36,6 +36,8 @@ export function Home() {
             <div className="col-auto">
               <FontAwesomeIcon icon={faFontAwesome} size='2x' />
             </div>
+          </div>
+          <div className='row align-items-center'>
             <div className="col-auto">
               <FontAwesomeIcon icon={faFigma} size='2x' />
             </div>
