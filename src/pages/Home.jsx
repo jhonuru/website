@@ -2,6 +2,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faLinkedin, faXTwitter, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faFontAwesome, faFigma, faWindows, faApple, faVuejs, faGithub, faNode, faNpm } from '@fortawesome/free-brands-svg-icons'
 import img1 from '../assets/img2.jpg'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.png'
 
 export function Home() {
   return (
@@ -442,6 +444,34 @@ export function Home() {
                   <p className="card-text mb-0"><b>Fecha retiro: </b>mayo - 2010</p>
                   <p className="card-text mb-0"><b>Fecha inicio: </b>octubre - 2008</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr className='hr' id='proyectos'/>
+      <section className='row mb-4'>
+        <div className="col-12 pt-5" data-aos="flip-up">
+          <h1 className='mb-4'>Proyectos</h1>
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-lg-5 mb-4" data-aos="fade-right">
+            <div className="card h-100" style={{width: '100%'}}>
+              <img src={img2} className="card-img-top" alt="" />
+              <div className="card-body">
+                <h4 className="card-title txt-c2">Juego del número secreto</h4>
+                <p className="card-text">Este sitio web es una aplicación interactiva que permite a los usuarios jugar a un juego de adivinar un número secreto. El objetivo del juego es adivinar el número secreto ingresado por el usuario. El sitio web utiliza JavaScript para generar el número secreto y realizar las comprobaciones.</p>
+                <a href="https://jhonuru.github.io/Aluralatam-ejercicio1/" target='_blank' rel='noreferrer' className="btn btn-primary">Jugar</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-5 mb-4" data-aos="fade-right">
+            <div className="card" style={{width: '100%'}}>
+              <img src={img3} className="card-img-top" alt="" />
+              <div className="card-body">
+                <h4 className="card-title txt-c2">Juego del número secreto</h4>
+                <p className="card-text">El sitio web es una página interactiva que permite a los usuarios ingresar texto para ser encriptado o desencriptado. Presenta un diseño limpio y moderno con un logo, un área de texto para ingresar contenido, botones para encriptar y desencriptar, y una sección para mostrar mensajes de salida. Además, incluye imágenes ilustrativas y mensajes informativos para guiar al usuario. El sitio utiliza JavaScript para la funcionalidad y Bootstrap para el estilo.</p>
+                <a href="https://jhonuru.github.io/Aluralatam-ejercicio2/" target='_blank' rel='noreferrer' className="btn btn-primary">Encriptar</a>
               </div>
             </div>
           </div>

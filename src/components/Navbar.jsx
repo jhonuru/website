@@ -38,6 +38,9 @@ export function Navbar() {
                 <a className="nav-link" href="#experiencia">Experiencia laboral</a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
