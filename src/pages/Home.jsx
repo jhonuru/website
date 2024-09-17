@@ -68,7 +68,7 @@ export function Home() {
               <a href="https://www.facebook.com/jhonuru/" target='_blank' rel='noreferrer' className='bg-c2' ><FontAwesomeIcon icon={faFacebook} size='2x' /></a>
             </div>
             <div className="col-auto">
-              <a href="https://twitter.com/urueta_alvarez" target='_blank' rel='noreferrer' className='bg-c2' ><FontAwesomeIcon icon={faInstagram} size='2x' /></a>
+              <a href="https://www.instagram.com/jhonuru/" target='_blank' rel='noreferrer' className='bg-c2' ><FontAwesomeIcon icon={faInstagram} size='2x' /></a>
             </div>
             <div className="col-auto">
               <a href="https://twitter.com/urueta_alvarez" target='_blank' rel='noreferrer' className='bg-c2' ><FontAwesomeIcon icon={faXTwitter} size='2x' /></a>
